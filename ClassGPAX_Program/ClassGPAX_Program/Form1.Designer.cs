@@ -29,45 +29,45 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtListName = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtNameMin = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtNameMax = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtTotalYear = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtGPAAvg = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtGPAMin = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtGPAMax = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.addBtn = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtGPA = new System.Windows.Forms.TextBox();
+            this.txtYear = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox10);
+            this.groupBox1.Controls.Add(this.txtListName);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox9);
+            this.groupBox1.Controls.Add(this.txtNameMin);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.txtNameMax);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.txtTotalYear);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.txtGPAAvg);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtGPAMin);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.txtGPAMax);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(233, 12);
@@ -77,15 +77,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ข้อมูลรายวิชา";
             // 
-            // textBox10
+            // txtListName
             // 
-            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox10.ForeColor = System.Drawing.Color.White;
-            this.textBox10.Location = new System.Drawing.Point(98, 149);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(253, 80);
-            this.textBox10.TabIndex = 23;
+            this.txtListName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtListName.ForeColor = System.Drawing.Color.White;
+            this.txtListName.Location = new System.Drawing.Point(98, 149);
+            this.txtListName.Multiline = true;
+            this.txtListName.Name = "txtListName";
+            this.txtListName.Size = new System.Drawing.Size(253, 80);
+            this.txtListName.TabIndex = 23;
             // 
             // label10
             // 
@@ -98,14 +98,14 @@
             this.label10.TabIndex = 22;
             this.label10.Text = "รายชื่อ";
             // 
-            // textBox9
+            // txtNameMin
             // 
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox9.ForeColor = System.Drawing.Color.White;
-            this.textBox9.Location = new System.Drawing.Point(251, 62);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 23);
-            this.textBox9.TabIndex = 21;
+            this.txtNameMin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtNameMin.ForeColor = System.Drawing.Color.White;
+            this.txtNameMin.Location = new System.Drawing.Point(251, 62);
+            this.txtNameMin.Name = "txtNameMin";
+            this.txtNameMin.Size = new System.Drawing.Size(100, 23);
+            this.txtNameMin.TabIndex = 21;
             // 
             // label9
             // 
@@ -118,14 +118,14 @@
             this.label9.TabIndex = 20;
             this.label9.Text = "ชื่อ";
             // 
-            // textBox8
+            // txtNameMax
             // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox8.ForeColor = System.Drawing.Color.White;
-            this.textBox8.Location = new System.Drawing.Point(251, 31);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 23);
-            this.textBox8.TabIndex = 19;
+            this.txtNameMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtNameMax.ForeColor = System.Drawing.Color.White;
+            this.txtNameMax.Location = new System.Drawing.Point(251, 31);
+            this.txtNameMax.Name = "txtNameMax";
+            this.txtNameMax.Size = new System.Drawing.Size(100, 23);
+            this.txtNameMax.TabIndex = 19;
             // 
             // label8
             // 
@@ -138,14 +138,14 @@
             this.label8.TabIndex = 18;
             this.label8.Text = "ชื่อ";
             // 
-            // textBox7
+            // txtTotalYear
             // 
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox7.ForeColor = System.Drawing.Color.White;
-            this.textBox7.Location = new System.Drawing.Point(98, 120);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 23);
-            this.textBox7.TabIndex = 17;
+            this.txtTotalYear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtTotalYear.ForeColor = System.Drawing.Color.White;
+            this.txtTotalYear.Location = new System.Drawing.Point(98, 120);
+            this.txtTotalYear.Name = "txtTotalYear";
+            this.txtTotalYear.Size = new System.Drawing.Size(100, 23);
+            this.txtTotalYear.TabIndex = 17;
             // 
             // label7
             // 
@@ -158,14 +158,14 @@
             this.label7.TabIndex = 16;
             this.label7.Text = "อายุรวม";
             // 
-            // textBox5
+            // txtGPAAvg
             // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox5.ForeColor = System.Drawing.Color.White;
-            this.textBox5.Location = new System.Drawing.Point(98, 91);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 23);
-            this.textBox5.TabIndex = 15;
+            this.txtGPAAvg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtGPAAvg.ForeColor = System.Drawing.Color.White;
+            this.txtGPAAvg.Location = new System.Drawing.Point(98, 91);
+            this.txtGPAAvg.Name = "txtGPAAvg";
+            this.txtGPAAvg.Size = new System.Drawing.Size(100, 23);
+            this.txtGPAAvg.TabIndex = 15;
             // 
             // label5
             // 
@@ -178,14 +178,14 @@
             this.label5.TabIndex = 14;
             this.label5.Text = "GPA Avg";
             // 
-            // textBox4
+            // txtGPAMin
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(98, 62);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 23);
-            this.textBox4.TabIndex = 13;
+            this.txtGPAMin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtGPAMin.ForeColor = System.Drawing.Color.White;
+            this.txtGPAMin.Location = new System.Drawing.Point(98, 62);
+            this.txtGPAMin.Name = "txtGPAMin";
+            this.txtGPAMin.Size = new System.Drawing.Size(100, 23);
+            this.txtGPAMin.TabIndex = 13;
             // 
             // label4
             // 
@@ -198,14 +198,14 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "GPA Min";
             // 
-            // textBox6
+            // txtGPAMax
             // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox6.ForeColor = System.Drawing.Color.White;
-            this.textBox6.Location = new System.Drawing.Point(98, 33);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 23);
-            this.textBox6.TabIndex = 11;
+            this.txtGPAMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtGPAMax.ForeColor = System.Drawing.Color.White;
+            this.txtGPAMax.Location = new System.Drawing.Point(98, 33);
+            this.txtGPAMax.Name = "txtGPAMax";
+            this.txtGPAMax.Size = new System.Drawing.Size(100, 23);
+            this.txtGPAMax.TabIndex = 11;
             // 
             // label6
             // 
@@ -254,6 +254,8 @@
             // addBtn
             // 
             this.addBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(119)))), ((int)(((byte)(113)))));
+            this.addBtn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.addBtn.FlatAppearance.BorderSize = 0;
             this.addBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(77)))), ((int)(((byte)(67)))));
             this.addBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(77)))), ((int)(((byte)(67)))));
             this.addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -263,33 +265,34 @@
             this.addBtn.TabIndex = 4;
             this.addBtn.Text = "Add";
             this.addBtn.UseVisualStyleBackColor = false;
+            this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
-            // textBox1
+            // txtName
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(85, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 5;
+            this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtName.ForeColor = System.Drawing.Color.White;
+            this.txtName.Location = new System.Drawing.Point(85, 47);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(100, 23);
+            this.txtName.TabIndex = 5;
             // 
-            // textBox3
+            // txtGPA
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(85, 152);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 7;
+            this.txtGPA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtGPA.ForeColor = System.Drawing.Color.White;
+            this.txtGPA.Location = new System.Drawing.Point(85, 152);
+            this.txtGPA.Name = "txtGPA";
+            this.txtGPA.Size = new System.Drawing.Size(100, 23);
+            this.txtGPA.TabIndex = 7;
             // 
-            // textBox2
+            // txtYear
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(85, 98);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 6;
+            this.txtYear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(64)))), ((int)(((byte)(113)))));
+            this.txtYear.ForeColor = System.Drawing.Color.White;
+            this.txtYear.Location = new System.Drawing.Point(85, 98);
+            this.txtYear.Name = "txtYear";
+            this.txtYear.Size = new System.Drawing.Size(100, 23);
+            this.txtYear.TabIndex = 6;
             // 
             // Form1
             // 
@@ -297,9 +300,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(29)))), ((int)(((byte)(59)))));
             this.ClientSize = new System.Drawing.Size(660, 272);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtGPA);
+            this.Controls.Add(this.txtYear);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.addBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -322,22 +325,22 @@
         private Label label2;
         private Label label3;
         private Button addBtn;
-        private TextBox textBox1;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox10;
+        private TextBox txtName;
+        private TextBox txtGPA;
+        private TextBox txtYear;
+        private TextBox txtListName;
         private Label label10;
-        private TextBox textBox9;
+        private TextBox txtNameMin;
         private Label label9;
-        private TextBox textBox8;
+        private TextBox txtNameMax;
         private Label label8;
-        private TextBox textBox7;
+        private TextBox txtTotalYear;
         private Label label7;
-        private TextBox textBox5;
+        private TextBox txtGPAAvg;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox txtGPAMin;
         private Label label4;
-        private TextBox textBox6;
+        private TextBox txtGPAMax;
         private Label label6;
     }
 }
